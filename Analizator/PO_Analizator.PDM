@@ -1,0 +1,105 @@
+[Root]
+Most Recent Package=TMP
+
+
+[Package|TMP|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\ambra\Desktop\Conn
+
+[Package|TMP|Configure DAO ISAMs]
+Applicable=No
+
+[Package|TMP|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|TMP|Files Found]
+
+[Package|TMP|Files Released]
+
+[Package|TMP|Missing Dependency Information]
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\ConnAgent.exe=
+
+[Package|TMP|Out-of-Date Dependency Information]
+
+[Package|TMP|Files Added]
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\ConnAgent.exe=
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\settings.ini=
+
+[Package|TMP|Files Removed]
+
+[Package|TMP|Files In Project]
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Porucivanje obuce\Analizator\PO Analizator.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\ConnAgent.exe=Yes
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\settings.ini=Yes
+
+[Package|TMP|Configure Registry Files]
+Applicable=No
+
+[Package|TMP|Configure Remote Servers]
+Applicable=No
+
+[Package|TMP|Install Locations]
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Porucivanje obuce\Analizator\PO Analizator.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\ConnAgent.exe=$(AppPath)
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\settings.ini=$(AppPath)
+
+[Package|TMP|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Porucivanje obuce\Analizator\PO Analizator.exe=No
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\ConnAgent.exe=No
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\settings.ini=No
+
+[Package|TMP|Distribution]
+Type=single
+Size=
+Title=PO_Analizator
+
+[Package|TMP|IconGroups]
+Group0=PO_Analizator
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|TMP|PO_Analizator]
+Icon1="PO Analizator.exe"
+Title1=PO_Analizator
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=ConnAgent.exe
+Title2=ConnAgent
+StartIn2=$(AppPath)
+Key2=Icon3
+
+[Package|TMP|Package]
+PackageFolder=C:\Documents and Settings\ambra\Desktop\Conn
+ProjectFolder=C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Porucivanje obuce\Analizator
+ServerSideCab=
+File1=C:\Documents and Settings\ambra\Desktop\Conn\setup.exe
+File2=C:\Documents and Settings\ambra\Desktop\Conn\Setup.Lst
+File3=C:\Documents and Settings\ambra\Desktop\Conn\PO Analizator.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

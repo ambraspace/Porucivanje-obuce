@@ -1,0 +1,126 @@
+[Root]
+Most Recent Package=Porucivanje obuce - klijent
+
+
+[Package|Porucivanje obuce - klijent|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\PO K
+
+[Package|Porucivanje obuce - klijent|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Porucivanje obuce - klijent|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Porucivanje obuce - klijent|Files Found]
+Porucivanje obuce.exe=C:\My Documents\Moji VB primjeri\Porucivanje obuce\Klijent\Porucivanje obuce.exe
+settings.ini=C:\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\settings.ini
+
+[Package|Porucivanje obuce - klijent|Files Released]
+porucivanje obuce (alt).exe=
+connagent (alt).exe=
+
+[Package|Porucivanje obuce - klijent|Missing Dependency Information]
+D:\Poruèivanje obuæe\ConnAgent (alt).exe=
+D:\Poruèivanje obuæe\Porucivanje obuce (alt).exe=
+D:\Poruèivanje obuæe\Porucivanje obuce.exe=
+C:\My Documents\Moji VB primjeri\Porucivanje obuce\Klijent\Porucivanje obuce.exe=
+
+[Package|Porucivanje obuce - klijent|Out-of-Date Dependency Information]
+
+[Package|Porucivanje obuce - klijent|Files Added]
+porucivanje obuce.exe=
+settings.ini=
+
+[Package|Porucivanje obuce - klijent|Files Removed]
+
+[Package|Porucivanje obuce - klijent|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\ConnAgent.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\My Documents\Moji VB primjeri\Porucivanje obuce\Klijent\Porucivanje obuce.exe=Yes
+C:\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\settings.ini=Yes
+
+[Package|Porucivanje obuce - klijent|Configure Registry Files]
+Applicable=No
+
+[Package|Porucivanje obuce - klijent|Configure Remote Servers]
+Applicable=No
+
+[Package|Porucivanje obuce - klijent|Install Locations]
+D:\Poruèivanje obuæe\ConnAgent.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Poruèivanje obuæe\ConnAgent (alt).exe=$(AppPath)
+D:\Poruèivanje obuæe\Porucivanje obuce (alt).exe=$(AppPath)
+D:\Poruèivanje obuæe\Porucivanje obuce.exe=$(AppPath)
+D:\Poruèivanje obuæe\settings.ini=$(AppPath)
+C:\WINDOWS\Desktop\ConnAgent.exe=$(AppPath)
+C:\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\ConnAgent.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\My Documents\Moji VB primjeri\Porucivanje obuce\Klijent\Porucivanje obuce.exe=$(AppPath)
+C:\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\settings.ini=$(AppPath)
+
+[Package|Porucivanje obuce - klijent|Configure Shared Files]
+Applicable=Yes
+D:\Poruèivanje obuæe\ConnAgent.exe=No
+D:\Poruèivanje obuæe\ConnAgent (alt).exe=No
+D:\Poruèivanje obuæe\Porucivanje obuce (alt).exe=No
+D:\Poruèivanje obuæe\Porucivanje obuce.exe=No
+D:\Poruèivanje obuæe\settings.ini=No
+C:\WINDOWS\Desktop\ConnAgent.exe=No
+C:\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\ConnAgent.exe=No
+C:\My Documents\Moji VB primjeri\Porucivanje obuce\Klijent\Porucivanje obuce.exe=No
+C:\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent\settings.ini=No
+
+[Package|Porucivanje obuce - klijent|Distribution]
+Type=single
+Size=
+Title=Poruèivanje obuæe
+
+[Package|Porucivanje obuce - klijent|IconGroups]
+Group0=Poruèivanje obuæe
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Porucivanje obuce - klijent|Poruèivanje obuæe]
+Icon1="Porucivanje obuce.exe"
+Title1=Poruèivanje obuæe
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=ConnAgent.exe
+Title2=Povezivanje
+StartIn2=$(AppPath)
+Key2=Icon4
+
+[Package|Porucivanje obuce - klijent|Package]
+PackageFolder=C:\WINDOWS\Desktop\PO K
+ProjectFolder=C:\My Documents\Moji VB primjeri\Porucivanje obuce\ConnAgent
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\PO K\setup.exe
+File2=C:\WINDOWS\Desktop\PO K\Setup.Lst
+File3=C:\WINDOWS\Desktop\PO K\ConnAgent.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

@@ -1,0 +1,111 @@
+[Root]
+Most Recent Package=Porucivanje obuce S
+
+
+[Package|Porucivanje obuce S|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\PO S
+
+[Package|Porucivanje obuce S|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Porucivanje obuce S|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Porucivanje obuce S|Files Found]
+
+[Package|Porucivanje obuce S|Files Released]
+
+[Package|Porucivanje obuce S|Missing Dependency Information]
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=
+
+[Package|Porucivanje obuce S|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+C:\WINDOWS\SYSTEM\comdlg32.ocx=
+
+[Package|Porucivanje obuce S|Files Added]
+c:\poruèivanje obuæe\data.mdb=
+C:\Poruèivanje obuæe\settings.ini=
+
+[Package|Porucivanje obuce S|Files Removed]
+
+[Package|Porucivanje obuce S|Files In Project]
+C:\Poruèivanje obuæe\Porucivanje obuce.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\mscomctl.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Poruèivanje obuæe\data.mdb=Yes
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM\msstdfmt.dll=Yes
+C:\Poruèivanje obuæe\settings.ini=Yes
+
+[Package|Porucivanje obuce S|Configure Registry Files]
+Applicable=No
+
+[Package|Porucivanje obuce S|Configure Remote Servers]
+Applicable=No
+
+[Package|Porucivanje obuce S|Install Locations]
+C:\Poruèivanje obuæe\Porucivanje obuce.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Poruèivanje obuæe\data.mdb=$(AppPath)
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msstdfmt.dll=$(WinSysPath)
+C:\Poruèivanje obuæe\settings.ini=$(AppPath)
+
+[Package|Porucivanje obuce S|Configure Shared Files]
+Applicable=Yes
+C:\Poruèivanje obuæe\Porucivanje obuce.exe=No
+C:\Poruèivanje obuæe\data.mdb=No
+C:\Poruèivanje obuæe\settings.ini=No
+
+[Package|Porucivanje obuce S|Distribution]
+Type=single
+Size=
+Title=Poruèivanje obuæe
+
+[Package|Porucivanje obuce S|Package]
+PackageFolder=C:\WINDOWS\Desktop\PO S
+ProjectFolder=C:\My Documents\Moji VB primjeri\Porucivanje obuce\Server
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\PO S\setup.exe
+File2=C:\WINDOWS\Desktop\PO S\Setup.Lst
+File3=C:\WINDOWS\Desktop\PO S\Porucivanje obuce.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Porucivanje obuce S|IconGroups]
+Group0=Poruèivanje obuæe
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Porucivanje obuce S|Poruèivanje obuæe]
+Icon1="Porucivanje obuce.exe"
+Title1=Poruèivanje obuæe
+StartIn1=$(AppPath)
+Key1=Icon1
